@@ -1,0 +1,40 @@
+@charset "UTF-8";
+#menu {
+    display: block;
+}
+
+a #menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    top: 10px;
+    left: -70px;
+}
+
+#menu li {
+    display: inline-block;
+    background-color: #2d3d2d7c;
+    border: 0px solid #676e5e;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+    margin: 2px;
+}
+
+#menu li:hover {
+    background-color: #000000;
+    font-weight: bolder;
+    color: #000000;
+}
+
+#menu h1 {
+    display: none;
+}
+
+#menu a {
+    color: #ffffff;
+    text-decoration: none;
+}

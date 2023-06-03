@@ -1,0 +1,112 @@
+@charset "UTF-8";
+body {
+    background-color: #000000;
+}
+
+p {
+    text-align: justify;
+    color: #ffffff;
+}
+
+#div_principal {
+    width: 965px;
+    margin: 0 auto 0 auto;
+    color: #FFFFFF;
+}
+
+#artigos {
+    float: left;
+    width: 650px;
+    color: #FFFFFF;
+    border-right: 2px solid #ffffff;
+    padding-right: 10px;
+}
+
+#subir {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    color: #FFFFFF;
+    border: 3px solid #1c1580b9;
+    background-color: #2c4122;
+}
+
+a {
+    color: #ffffff;
+    bottom: 20px;
+    text-decoration: none;
+}
+
+button {
+    background-color: #000000;
+}
+
+#lateral {
+    width: 281px;
+    float: left;
+    padding-left: 20px;
+    padding-right: 1px;
+    color: #FFFFFF;
+}
+
+#rodape {
+    clear: both;
+    border-top: 2px solid #ffffff;
+    padding-top: 5px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#cabecalho {
+    border-bottom: 1px solid #000000;
+    border-radius: 0px;
+    margin-top: 3px;
+    padding: 1px 0 0 15px;
+    padding-bottom: 15px;
+    box-shadow: 10px 10px 5px #000000;
+    background-size: 100% 100%;
+    background: rgb(0, 0, 0);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+#cabecalho {
+    background-image: linear-gradient(to bottom, rgb(62, 95, 60), black);
+}
+
+#cabecalho h1 {
+    margin-bottom: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 300%;
+    color: #000000;
+}
+
+#cabecalho h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+}
+
+#cabecalho h3 {
+    margin-top: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000000;
+    background-color: #000000;
+}
+
+#cabecalho img {
+    float: right;
+    margin: 20px 20px 0 0;
+    width: 20%;
+    border: 1px solid #020302;
+    background: url(_img/logo.png) no-repeat;
+    -moz-box-shadow: 6px 6px 5px #000000;
+    -webkit-box-shadow: 6px 6px 5px #000000;
+    box-shadow: 6px 6px 5px #000000;
+    -moz-border-radius: 190px;
+    -webkit-border-radius: 190px;
+    border-radius: 190px;
+}
